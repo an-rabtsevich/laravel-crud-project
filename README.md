@@ -1,66 +1,48 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# laravel-crud-project
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## About The Project
 
-## About Laravel
+A simple project, created while studying the Laravel framework.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Usage
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+The project contains a registration and login page.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<img src="https://i.ibb.co/51yTDZq/lcp1.png" alt="lcp1" width="800px">
 
-## Learning Laravel
+<img src="https://i.ibb.co/WDQZ9V0/lcp2.png" alt="lcp2" width="800px">
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+<img src="https://i.ibb.co/Qd5w1Tc/lcp3.png" alt="lcp3" width="800px">
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+<img src="https://i.ibb.co/4K64b9n/lcp4.png" alt="lcp4" width="800px">
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+After logging in, you are redirected to the page with posts.
+There are also pages with creation, editing, viewing, as well as a page with deleted posts (where you can either permanently delete a post or restore it).
 
-## Laravel Sponsors
+<img src="https://i.ibb.co/3BwDF87/lcp5.png" alt="lcp5" width="800px">
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+<img src="https://i.ibb.co/d5yNNvP/lcp6.png" alt="lcp6" width="800px">
 
-### Premium Partners
+<img src="https://i.ibb.co/DbgcrSL/lcp7.png" alt="lcp7" width="800px">
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+<img src="https://i.ibb.co/BfYfJFZ/lcp8.png" alt="lcp8" width="800px">
 
-## Contributing
+The site has 3 types of access: admin (can add, delete, edit, view posts), writer (can add, edit and view posts) and user (can only view posts).
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+<img src="https://i.ibb.co/5vCs494/lcp9.png" alt="lcp9" width="800px">
 
-## Code of Conduct
+<img src="https://i.ibb.co/LSPFPBs/lcp10.png" alt="lcp10" width="800px">
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+<img src="https://i.ibb.co/hCZWM63/lcp11.png" alt="lcp11" width="800px">
 
-## Security Vulnerabilities
+## Built With
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+<span><img src="https://img.shields.io/badge/PHP-%234f5b93?style=flat-square" alt="PHP"></span>
+<span><img src="https://img.shields.io/badge/Laravel-%23ef3b2d?style=flat-square" alt="Laravel"></span>
+<span><img src="https://img.shields.io/badge/HTML-%23e44d26?style=flat-square" alt="HTML"></span>
+<span><img src="https://img.shields.io/badge/CSS-%23264de4?style=flat-square" alt="CSS"></span>
+<span><img src="https://img.shields.io/badge/Bootstrap-%238712fb?style=flat-square" alt="Bootstrap"></span>
 
-## License
+## Developers
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- [an-rabtsevich](https://github.com/an-rabtsevich)
